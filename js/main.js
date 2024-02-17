@@ -11,5 +11,7 @@ function Play(){
 
 function continuesGame(){
     const alphabet = alphabetRandom();
-    console.log(alphabet)
+    const artShow = document.getElementById('art-show');
+    artShow.innerText = alphabet;
+    setKyeBgColor(alphabet);
 }
